@@ -1,16 +1,16 @@
 import random
 import time
 
-daftar_perasaan = ["sedih"," bahagia"," rindu"," kesepian"," bete"," malas"," lapar"]
+daftar_perasaan = ["sedih","bahagia","rindu","kesepian","bete","malas"]
 perasaan_rahasia = random.choice(daftar_perasaan)
 percobaan = 0
 batas_percobaan = 3
 
 print("=== GAME: Tebak Perasaan Uyu ==="); time.sleep(0.8)
-print("Apa yang sedang Uyu rasakan saat ini?")
-print("Mari menebak bersama!")
-print(f"Pilihan: {','.join(daftar_perasaan)}")
-print(f"Kamu punya {batas_percobaan} kesempatan, gunakan sebaik mungkin. Semoga berhasil!")
+print("Apa yang sedang Uyu rasakan saat ini?"); time.sleep(0.8)
+print("Mari menebak bersama!"); time.sleep(0.8)
+print(f"Pilihan: {', '.join(daftar_perasaan)}"); time.sleep(0.5)
+print(f"Kamu punya {batas_percobaan} kesempatan, gunakan sebaik mungkin. Semoga berhasil!"); time.sleep(0.5)
 
 while True:
     tebakan = input("Tebakanmu: ").lower().strip()
